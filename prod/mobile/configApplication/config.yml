@@ -1,0 +1,5 @@
+appVersion: "1.0"
+apiHost: "http://tracker-device.com/"
+clientId: "android"
+urlNewVersionApp: ""
+dataBaseVersion: 1

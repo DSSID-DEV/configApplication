@@ -72,11 +72,19 @@ Pode ser realizada utilizando:
 ## 🛠 Sugestão de Estrutura no Android
 
 ```
-app/src/
+configApplication/src/
  ├─ main/
- │   └─ assets/config-prod.yml
+ │   └─ mobile/
+ |         ├─ configApplication 
+ |         |          └─ config-prod.yml
+ |         └─ version
+ |               └─ tracker-device_prod.apk
  ├─ dev/
- │   └─ assets/config-dev.yml
+ │   └─ mobile/
+ |         ├─ configApplication 
+ |         |          └─ config-dev.yml
+ |         └─ version
+ |               └─ tracker-device_dev.apk
 ```
 
 > O app deve selecionar automaticamente o arquivo conforme o flavor.

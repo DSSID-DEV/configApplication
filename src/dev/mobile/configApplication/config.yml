@@ -3,3 +3,5 @@ api_host: "http://tracker-device.com/"
 client_id: "android"
 url_new_version_app: ""
 data_base_version: 1
+send_interval: 15
+send_duration: 1

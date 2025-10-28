@@ -1,5 +1,5 @@
 app_version: "1.0"
-api_host: "http://tracker-device.com/"
+api_host: "http://tracker-device.com:8080/"
 client_id: "android"
 url_new_version_app: ""
 data_base_version: 1
